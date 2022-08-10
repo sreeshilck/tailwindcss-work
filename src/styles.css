@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply  bg-white rounded overflow-hidden shadow-md  hover:scale-110 ease-in-out duration-700 cursor-pointer  ;
+}
+
+.btn {
+    @apply rounded-full text-xs p-3 uppercase cursor-pointer tracking-wider font-semibold
+}
